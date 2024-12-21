@@ -108,11 +108,11 @@ def optimize_clusters(clusters, speed_km_per_hr, service_time_hr, tmax, time_lim
     print(f"Total System Cost: {total_system_cost:.2f}")
 
 # Example usage
-speed_km_per_hr = 35  # For example, 50 km/h (you can adjust this based on your scenario)
-service_time_hr = 0.05  # 30 minutes per city (adjustable)
-tmax = 3  # Maximum time for the shift (in hours, for example, 8 hours)
-time_limit = 300 # Time limit in seconds (e.g., 60 seconds)
-optimality_gap = 0.001  #Silinmeli Optimality gap (e.g., 5%)
+speed_km_per_hr = 35  # km/h 
+service_time_hr = 0.05  # in hours
+tmax = 3  # Maximum time for the shift(11am-2pm) 
+time_limit = 300 # Time limit in seconds
+optimality_gap = 0.001  # Optimality gap in percentage
 hiring_cost_per_cluster = 50
 
 
