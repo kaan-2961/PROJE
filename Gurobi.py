@@ -112,7 +112,7 @@ speed_km_per_hr = 35  # km/h
 service_time_hr = 0.05  # in hours
 tmax = 3  # Maximum time for the shift(11am-2pm) 
 time_limit = 300 # Time limit in seconds
-optimality_gap = 0.001  # Optimality gap in percentage
+optimality_gap = 0.005  # Optimality gap in percentage
 hiring_cost_per_cluster = 50
 
 
